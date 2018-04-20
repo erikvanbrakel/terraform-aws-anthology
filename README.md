@@ -15,11 +15,11 @@ Each Module has the following folder structure:
 * [examples][220]: This folder contains examples of how to use the modules.
 * [test][230]: Automated tests for the modules and examples.
 
-[200]: https://github.com/erikvanbrakel/Anthology/tree/master
-[201]: https://github.com/erikvanbrakel/Anthology/tree/master/modules/anthology-cluster
-[210]: https://github.com/erikvanbrakel/Anthology/tree/master/modules
-[220]: https://github.com/erikvanbrakel/Anthology/tree/master/
-[230]: https://github.com/erikvanbrakel/Anthology/tree/master/test
+[200]: https://github.com/erikvanbrakel/terraform-aws-anthology/tree/master
+[201]: https://github.com/erikvanbrakel/terraform-aws-anthology/tree/master/modules/anthology-cluster
+[210]: https://github.com/erikvanbrakel/terraform-aws-anthology/tree/master/modules
+[220]: https://github.com/erikvanbrakel/terraform-aws-anthology/tree/master/
+[230]: https://github.com/erikvanbrakel/terraform-aws-anthology/tree/master/test
 
 
 ## What's a Module?
