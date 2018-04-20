@@ -10,15 +10,17 @@ This repository contains a Module for how to an [Anthology] private terraform re
 Each Module has the following folder structure:
 
 * [root][200]: This folder shows an example of Terraform code that uses the [anthology-cluster][201] module
-  to deploy an [Anthology] cluster in [AWS].
+  to deploy an [Anthology] cluster in [AWS]. It uses the [anthology-network][202] module to create a VPC
+  with private and public subnets to deploy into.
 * [modules][210]: This folder contains the reusable code for this Module, broken down into one or more modules.
 * [examples][220]: This folder contains examples of how to use the modules.
 * [test][230]: Automated tests for the modules and examples.
 
 [200]: https://github.com/erikvanbrakel/terraform-aws-anthology/tree/master
 [201]: https://github.com/erikvanbrakel/terraform-aws-anthology/tree/master/modules/anthology-cluster
+[201]: https://github.com/erikvanbrakel/terraform-aws-anthology/tree/master/modules/anthology-network
 [210]: https://github.com/erikvanbrakel/terraform-aws-anthology/tree/master/modules
-[220]: https://github.com/erikvanbrakel/terraform-aws-anthology/tree/master/
+[220]: https://github.com/erikvanbrakel/terraform-aws-anthology/tree/master/examples
 [230]: https://github.com/erikvanbrakel/terraform-aws-anthology/tree/master/test
 
 
@@ -68,10 +70,12 @@ MINOR, and PATCH versions on each release to indicate any incompatibilities.
 This code is released under the MIT License. Please see [LICENSE](./LICENSE) for more details.
 
 
+[Erik van Brakel]: https://github.com/erikvanbrakel
+
 [Anthology]: https://github.com/erikvanbrakel/Anthology
+[issue]: https://github.com/erikvanbrakel/terraform-aws-anthology/issues/new
+[Releases Page]: https://github.com/erikvanbrakel/terraform-aws-anthology/releases
+
 [AWS]: https://aws.amazon.com/
 [Terraform]: https://www.terraform.io/
-[Erik van Brakel]: https://github.com/erikvanbrakel
-[issue]: https://github.com/erikvanbrakel/Anthology/issues/new
 [Semantic Versioning]: http://semver.org/
-[Releases Page]: https://github.com/erikvanbrakel/Anthology/releases
