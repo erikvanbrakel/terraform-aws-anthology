@@ -40,7 +40,7 @@ data "template_file" "container-definitions" {
 
   vars {
     BUCKET_NAME    = "${var.bucket}"
-    REGISTRY_IMAGE = "erikvanbrakel/terraform-registry:latest"
+    REGISTRY_IMAGE = "erikvanbrakel/anthology:${var.docker_tag}"
     LOG_GROUP      = "${aws_cloudwatch_log_group.log-group.name}"
     LOG_REGION     = "${data.aws_region.current.name}"
   }

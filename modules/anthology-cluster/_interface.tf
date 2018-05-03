@@ -1,3 +1,8 @@
+variable "docker_tag" {
+  description = "Version tag of the anthology container image."
+  default = "latest"
+}
+
 variable "vpc_id" {
   description = "Target VPC ID. Required for creating security groups."
   type = "string"

@@ -44,6 +44,7 @@ module "registry" {
   public_subnet_ids  = "${module.networking.public_subnet_ids}"
   private_subnet_ids = "${module.networking.private_subnets_ids}"
   vpc_id             = "${module.networking.vpc_id}"
+  docker_tag         = "latest"
 
   certificate_arn = "${aws_acm_certificate.certificate.arn}"
   bucket          = "${aws_s3_bucket.modules.bucket}"
