@@ -4,7 +4,7 @@
         "image": "${REGISTRY_IMAGE}",
         "memoryReservation": 512,
         "essential": true,
-        "command": ["--backend=s3 --s3.bucket=${BUCKET_NAME}", "--port=8082"],
+        "command": ["--backend=s3", "--s3.bucket=${BUCKET_NAME}", "--port=8082"],
         "portMappings": [
             {
                 "protocol": "tcp",
